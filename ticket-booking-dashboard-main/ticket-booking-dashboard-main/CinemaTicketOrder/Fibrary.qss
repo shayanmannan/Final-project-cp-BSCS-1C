@@ -1,0 +1,127 @@
+QWidget
+{
+        background-color: #010819;
+	color: #fff;
+	border-color: #000000;
+        font-family: Arial;
+}
+QLabel
+{
+	background-color: transparent;
+	color: #fff;
+	font-weight: bold;
+	border-color: #000000;
+        font-family: Arial;
+}
+QPushButton
+{
+        background-color: #0892D0;
+	color: #fff;
+	font-weight: bold;
+        border: 1px solid #0892D0;
+	border-radius: 2px;
+	padding: 5px;
+        font-family:Arial;
+}
+QPushButton::checked {
+    background-color: #ff9000;
+    border: 0px;
+    font-family:Arial;
+}
+QPushButton::disabled {
+    background-color:#696969;
+    border: 0px;
+    font-family:Arial;
+}
+QPushButton::hover
+{
+        background-color: #00009C;
+	color: #fff;
+        font-family:Arial;
+
+}
+QPushButton::pressed
+{
+	background-color: #e00000;
+	color: #fff;
+        font-family:Arial;
+}
+QToolButton
+{
+	background-color: transparent;
+	color: #000000;
+	border-style: solid;
+	border-color: #000000;
+        font-family:Arial;
+}
+QToolButton::hover
+{
+	background-color: #d10000;
+	color: #000000;
+	border-radius: 15px;
+	border-color: #d10000;
+        font-family:Arial;
+}
+QToolButton::pressed
+{
+	background-color: #d10000;
+	color: #000000;
+	border-style: solid;
+	border-width: 0px;
+        font-family:Arial;
+}
+QLineEdit{
+	background-color: #4d4d4d;
+	color: #fff;
+	font-weight: bold;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 5px;
+        font-family:Arial;
+}
+QCheckBox
+{
+	background-color: transparent;
+	color: #b9b9bb;
+	font-weight: bold;
+        font-family:Arial;
+}
+QCheckBox::indicator
+{
+    color: #b1b1b1;
+    background-color: #00111d;
+    border: 1px solid #d10000;
+    width: 12px;
+    height: 12px;
+    font-family:Arial;
+}
+QCheckBox::indicator:checked
+{
+    image:url("./ressources/check.png");
+	background-color: #d10000;
+    border: 1px solid #d10000;
+    font-family:Arial;
+}
+QCheckBox::indicator:unchecked:hover
+{
+    border: 1px solid #ff0000;
+    font-family:Arial;
+}
+QCheckBox::disabled
+{
+	color: #656565;
+        font-family:Arial;
+}
+QCheckBox::indicator:disabled
+{
+	background-color: #656565;
+	color: #656565;
+        border: 1px solid #656565;
+        font-family:Arial;
+
+}
+QHeaderView::section {
+        background-color: #0f0f0f;
+        border: 1px solid #ffffff;
+        font-family:Arial;
+}
